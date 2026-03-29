@@ -1,0 +1,237 @@
+{
+  "role": "iOS Developer (Swift)",
+  "skill_map": {
+    "languages": [
+      "Swift",
+      "Objective-C",
+      "C++"
+    ],
+    "frameworks": [
+      "UIKit",
+      "SwiftUI",
+      "Core Data",
+      "Core Animation",
+      "Combine",
+      "MapKit",
+      "CloudKit",
+      "Foundation"
+    ],
+    "infrastructure": [
+      "Xcode",
+      "Git",
+      "GitHub",
+      "CocoaPods",
+      "Swift Package Manager",
+      "App Store Connect"
+    ],
+    "soft_skills": [
+      "Problem Solving",
+      "Debugging",
+      "Version Control",
+      "Agile Development",
+      "Teamwork",
+      "Communication",
+      "Time Management",
+      "Testing",
+      "Design Patterns"
+    ]
+  },
+  "salary_table": {
+    "Junior": {
+      "Москва": {
+        "min": 120,
+        "median": 150,
+        "max": 200
+      },
+      "Регионы РФ": {
+        "min": 90,
+        "median": 120,
+        "max": 180
+      },
+      "Remote USD": {
+        "min": 50,
+        "median": 70,
+        "max": 100
+      }
+    },
+    "Middle": {
+      "Москва": {
+        "min": 200,
+        "median": 280,
+        "max": 400
+      },
+      "Регионы РФ": {
+        "min": 160,
+        "median": 220,
+        "max": 350
+      },
+      "Remote USD": {
+        "min": 80,
+        "median": 110,
+        "max": 160
+      }
+    },
+    "Senior": {
+      "Москва": {
+        "min": 350,
+        "median": 500,
+        "max": 800
+      },
+      "Регионы РФ": {
+        "min": 280,
+        "median": 400,
+        "max": 700
+      },
+      "Remote USD": {
+        "min": 150,
+        "median": 220,
+        "max": 350
+      }
+    },
+    "Lead": {
+      "Москва": {
+        "min": 600,
+        "median": 900,
+        "max": 1500
+      },
+      "Регионы РФ": {
+        "min": 450,
+        "median": 650,
+        "max": 1200
+      },
+      "Remote USD": {
+        "min": 250,
+        "median": 380,
+        "max": 600
+      }
+    }
+  },
+  "market_trend": {
+    "trend": "growing",
+    "justification": "Спрос на iOS-разработчиков остается высоким, особенно с учетом развития новых технологий Apple, таких как SwiftUI и Combine.  Компании продолжают инвестировать в разработку и поддержку iOS-приложений, что стимулирует рост зарплат."
+  },
+  "top_employers": [
+    "Yandex",
+    "Sberbank",
+    "Mail.ru Group",
+    "Tinkoff",
+    "Ozon"
+  ],
+  "learning_path": {
+    "phase_1_foundation": {
+      "days": 30,
+      "topics": [
+        "Swift Fundamentals",
+        "UIKit Basics",
+        "iOS Architecture Principles"
+      ],
+      "resources": [
+        {
+          "name": "Apple Developer Fundamentals",
+          "type": "курс"
+        },
+        {
+          "name": "Swift by Tutorials",
+          "type": "книга"
+        },
+        {
+          "name": "SwiftUI Fundamentals",
+          "type": "документация"
+        }
+      ],
+      "milestone": "Освоено базовое понимание языка Swift, UIKit и принципов iOS архитектуры."
+    },
+    "phase_2_practice": {
+      "days": 45,
+      "topics": [
+        "SwiftUI Advanced",
+        "Core Data Usage",
+        "Networking with URLSession"
+      ],
+      "resources": [
+        {
+          "name": "Ray Wenderlich SwiftUI Tutorials",
+          "type": "курс"
+        },
+        {
+          "name": "Core Data Documentation",
+          "type": "документация"
+        },
+        {
+          "name": "URLSession Tutorial - Ray Wenderlich",
+          "type": "курс"
+        }
+      ],
+      "milestone": "Создано несколько простых приложений с использованием SwiftUI, Core Data и сетевых запросов."
+    },
+    "phase_3_portfolio": {
+      "days": 30,
+      "topics": [
+        "MapKit Integration",
+        "CloudKit Usage",
+        "Advanced UI Design Patterns"
+      ],
+      "resources": [
+        {
+          "name": "Apple MapKit Documentation",
+          "type": "документация"
+        },
+        {
+          "name": "CloudKit Documentation",
+          "type": "документация"
+        },
+        {
+          "name": "Design Patterns in iOS Development",
+          "type": "книга"
+        }
+      ],
+      "milestone": "Разработан полноценный портфельный проект с использованием MapKit, CloudKit и продвинутых паттернов проектирования."
+    }
+  },
+  "gap_analysis": {
+    "quick_wins": [
+      {
+        "skill": "Version Control with Git",
+        "timeframe": "1-2 недели",
+        "action": "Изучить основы Git и начать использовать его для управления кодом."
+      },
+      {
+        "skill": "Debugging Techniques",
+        "timeframe": "1-2 недели",
+        "action": "Освоить базовые техники отладки в Xcode."
+      }
+    ],
+    "long_term": [
+      {
+        "skill": "Advanced Design Patterns",
+        "timeframe": "3+ месяцев",
+        "action": "Изучить продвинутые паттерны проектирования, такие как MVVM и VIPER."
+      },
+      {
+        "skill": "Performance Optimization",
+        "timeframe": "6+ месяцев",
+        "action": "Изучить методы оптимизации производительности iOS приложений."
+      }
+    ]
+  },
+  "portfolio_project": {
+    "name": "Simple Weather App",
+    "description": "Приложение, которое отображает текущую погоду и прогноз на несколько дней, используя данные API.",
+    "technologies": [
+      "Swift",
+      "SwiftUI",
+      "MapKit",
+      "URLSession",
+      "JSON Parsing"
+    ]
+  },
+  "quality_score": {
+    "score": 78,
+    "justification": "Отчет в целом хорошо структурирован и содержит полезную информацию, однако есть некоторые несоответствия в зарплатах и несколько потенциальных противоречий, требующих внимания. Реалистичность трендов и предлагаемый learning path оцениваются достаточно высоко."
+  },
+  "warnings": [
+    "Зарплатный диапазон для Senior в Москве (min: 350, median: 500, max: 800) не соответствует текущему рынку, где средние зарплаты для опытных iOS-разработчиков значительно выше.  Это создает несоответствие между данными и рыночной реальностью.",
+    "Market trend: 'growing' не соответствует использованию SwiftUI и Combine в learning_path, что может указывать на устаревшую информацию или неполное понимание текущих трендов."
+  ],
+  "is_consistent": true
+}

@@ -1,0 +1,227 @@
+{
+  "role": "ML Engineer",
+  "skill_map": {
+    "languages": [
+      "Python",
+      "R",
+      "SQL"
+    ],
+    "frameworks": [
+      "TensorFlow",
+      "PyTorch",
+      "Keras",
+      "Scikit-learn",
+      "Spark MLlib"
+    ],
+    "infrastructure": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Kubernetes",
+      "Docker",
+      "MLflow"
+    ],
+    "soft_skills": [
+      "Problem Solving",
+      "Communication",
+      "Teamwork",
+      "Data Analysis",
+      "Statistical Modeling",
+      "Experiment Design",
+      "Version Control (Git)"
+    ]
+  },
+  "salary_table": {
+    "Junior": {
+      "Москва": {
+        "min": 120,
+        "median": 150,
+        "max": 200
+      },
+      "Регионы РФ": {
+        "min": 100,
+        "median": 130,
+        "max": 180
+      },
+      "Remote USD": {
+        "min": 50,
+        "median": 70,
+        "max": 100
+      }
+    },
+    "Middle": {
+      "Москва": {
+        "min": 220,
+        "median": 280,
+        "max": 400
+      },
+      "Регионы РФ": {
+        "min": 180,
+        "median": 230,
+        "max": 350
+      },
+      "Remote USD": {
+        "min": 80,
+        "median": 110,
+        "max": 160
+      }
+    },
+    "Senior": {
+      "Москва": {
+        "min": 380,
+        "median": 480,
+        "max": 700
+      },
+      "Регионы РФ": {
+        "min": 320,
+        "median": 400,
+        "max": 600
+      },
+      "Remote USD": {
+        "min": 120,
+        "median": 160,
+        "max": 250
+      }
+    },
+    "Lead": {
+      "Москва": {
+        "min": 600,
+        "median": 800,
+        "max": 1200
+      },
+      "Регионы РФ": {
+        "min": 500,
+        "median": 650,
+        "max": 1000
+      },
+      "Remote USD": {
+        "min": 180,
+        "median": 240,
+        "max": 400
+      }
+    }
+  },
+  "market_trend": {
+    "trend": "growing",
+    "justification": "Спрос на ML инженеров продолжает расти, обусловленный увеличением объема данных и потребностью в автоматизации процессов.  Компании активно инвестируют в разработку и внедрение машинного обучения, что приводит к увеличению числа вакансий и, как следствие, росту зарплат."
+  },
+  "top_employers": [
+    "Яндекс",
+    "Сбер",
+    "Mail.ru Group",
+    "Газпром",
+    "Тинькофф"
+  ],
+  "learning_path": {
+    "phase_1_foundation": {
+      "days": 30,
+      "topics": [
+        "Основы Python и ML",
+        "Работа с данными (Pandas, NumPy)",
+        "Статистика и вероятности"
+      ],
+      "resources": [
+        {
+          "name": "Python для Data Science от Google",
+          "type": "курс"
+        },
+        {
+          "name": "Pandas Documentation",
+          "type": "документация"
+        },
+        {
+          "name": "Introduction to Statistical Learning",
+          "type": "книга"
+        }
+      ],
+      "milestone": "Понимание базовых концепций машинного обучения и умение работать с данными на Python."
+    },
+    "phase_2_practice": {
+      "days": 45,
+      "topics": [
+        "TensorFlow и PyTorch",
+        "Разработка и обучение моделей",
+        "Оценка и выбор моделей"
+      ],
+      "resources": [
+        {
+          "name": "TensorFlow Tutorial",
+          "type": "документация"
+        },
+        {
+          "name": "PyTorch Tutorials",
+          "type": "документация"
+        },
+        {
+          "name": "Scikit-learn Documentation",
+          "type": "документация"
+        }
+      ],
+      "milestone": "Умение строить, обучать и оценивать простые модели машинного обучения с использованием TensorFlow/PyTorch и Scikit-learn."
+    },
+    "phase_3_portfolio": {
+      "days": 30,
+      "topics": [
+        "Развертывание моделей (MLflow, Docker)",
+        "Работа с облачными платформами (AWS/Azure/GCP)",
+        "Оптимизация и масштабирование моделей"
+      ],
+      "resources": [
+        {
+          "name": "MLflow Documentation",
+          "type": "документация"
+        },
+        {
+          "name": "Docker Documentation",
+          "type": "документация"
+        },
+        {
+          "name": "AWS/Azure/GCP Tutorials",
+          "type": "документация"
+        }
+      ],
+      "milestone": "Умение развертывать обученные модели на сервере и использовать MLflow для отслеживания экспериментов."
+    }
+  },
+  "gap_analysis": {
+    "quick_wins": [
+      {
+        "skill": "Docker",
+        "timeframe": "2-4 недели",
+        "action": "Пройти базовый курс по Docker и научиться создавать и запускать контейнеры."
+      },
+      {
+        "skill": "MLflow",
+        "timeframe": "1-2 недели",
+        "action": "Освоить основные функции MLflow для отслеживания экспериментов."
+      }
+    ],
+    "long_term": [
+      {
+        "skill": "Архитектура ML-систем",
+        "timeframe": "3+ месяцев",
+        "action": "Изучить принципы проектирования и разработки сложных ML-систем, включая data pipelines, feature engineering и мониторинг."
+      }
+    ]
+  },
+  "portfolio_project": {
+    "name": "Классификация изображений кошек и собак",
+    "description": "Разработка модели машинного обучения, которая классифицирует изображения кошек и собак на основе данных, собранных из открытых источников (например, Kaggle).  Использование TensorFlow/Keras для создания и обучения модели, а также развертывание модели на облачной платформе.",
+    "technologies": [
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "AWS/GCP"
+    ]
+  },
+  "quality_score": {
+    "score": 78,
+    "justification": "Отчет в целом хорошо структурирован и содержит полезную информацию. Однако, некоторые несоответствия в зарплатах и детализации learning_path требуют улучшения.  Некоторые предупреждения относительно трендов и gap_analysis также заслуживают внимания."
+  },
+  "warnings": [
+    "Market trend 'growing' не согласуется с использованием TensorFlow/PyTorch в learning_path, что может указывать на неактуальность тренда.",
+    "В gap_analysis необходимо более глубокое исследование архитектуры ML-систем, чем просто 'изучить принципы' - требуется конкретизация.",
+    "Зарплаты в 'Регионах РФ' для Junior и Middle уровней выглядят нереалистично низкими по сравнению с Москвой, требуя уточнения."
+  ],
+  "is_consistent": true
+}

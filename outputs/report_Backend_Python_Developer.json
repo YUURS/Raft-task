@@ -1,0 +1,234 @@
+{
+  "role": "Backend Python Developer",
+  "skill_map": {
+    "languages": [
+      "Python",
+      "SQL"
+    ],
+    "frameworks": [
+      "Django",
+      "Flask",
+      "FastAPI",
+      "Requests"
+    ],
+    "infrastructure": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Docker",
+      "Kubernetes",
+      "PostgreSQL",
+      "MySQL"
+    ],
+    "soft_skills": [
+      "Problem-solving",
+      "Teamwork",
+      "Communication",
+      "Version Control (Git)",
+      "Agile Methodologies"
+    ]
+  },
+  "salary_table": {
+    "Junior": {
+      "Москва": {
+        "min": 120,
+        "median": 150,
+        "max": 200
+      },
+      "Регионы РФ": {
+        "min": 90,
+        "median": 120,
+        "max": 180
+      },
+      "Remote USD": {
+        "min": 45,
+        "median": 60,
+        "max": 85
+      }
+    },
+    "Middle": {
+      "Москва": {
+        "min": 220,
+        "median": 280,
+        "max": 400
+      },
+      "Регионы РФ": {
+        "min": 160,
+        "median": 200,
+        "max": 300
+      },
+      "Remote USD": {
+        "min": 80,
+        "median": 100,
+        "max": 150
+      }
+    },
+    "Senior": {
+      "Москва": {
+        "min": 400,
+        "median": 500,
+        "max": 700
+      },
+      "Регионы РФ": {
+        "min": 300,
+        "median": 400,
+        "max": 600
+      },
+      "Remote USD": {
+        "min": 150,
+        "median": 200,
+        "max": 300
+      }
+    },
+    "Lead": {
+      "Москва": {
+        "min": 600,
+        "median": 800,
+        "max": 1200
+      },
+      "Регионы РФ": {
+        "min": 450,
+        "median": 600,
+        "max": 900
+      },
+      "Remote USD": {
+        "min": 250,
+        "median": 350,
+        "max": 500
+      }
+    }
+  },
+  "market_trend": {
+    "trend": "growing",
+    "justification": "Спрос на backend-разработчиков на Python остается высоким, обусловленный необходимостью развития веб-сервисов и микросервисных архитектур.  Учитывая растущую популярность FastAPI и Kubernetes, а также фокус компаний на автоматизацию и масштабирование, ожидается дальнейший рост зарплат и спроса."
+  },
+  "top_employers": [
+    "Яндекс",
+    "Сбер",
+    "Mail.ru Group",
+    "VK",
+    "Tiktok"
+  ],
+  "learning_path": {
+    "phase_1_foundation": {
+      "days": 30,
+      "topics": [
+        "Python Fundamentals",
+        "SQL Basics",
+        "Django Fundamentals"
+      ],
+      "resources": [
+        {
+          "name": "Python Tutorial (Official)",
+          "type": "документация"
+        },
+        {
+          "name": "SQLZoo",
+          "type": "онлайн курс"
+        },
+        {
+          "name": "Django Tutorial",
+          "type": "официальная документация"
+        }
+      ],
+      "milestone": "Понимание основных концепций Python, SQL и базового Django. Умение писать простые запросы к БД и создавать базовые веб-приложения."
+    },
+    "phase_2_practice": {
+      "days": 45,
+      "topics": [
+        "Django Models & Views",
+        "Django REST Framework Basics",
+        "API Design"
+      ],
+      "resources": [
+        {
+          "name": "Django REST Framework Tutorial",
+          "type": "онлайн курс"
+        },
+        {
+          "name": "Django Documentation - Models",
+          "type": "документация"
+        },
+        {
+          "name": "REST API Design Principles",
+          "type": "статья/книга"
+        }
+      ],
+      "milestone": "Умение разрабатывать REST API с использованием Django REST Framework, модели данных и создавать CRUD операции."
+    },
+    "phase_3_portfolio": {
+      "days": 30,
+      "topics": [
+        "Advanced Django Features",
+        "Testing",
+        "Deployment"
+      ],
+      "resources": [
+        {
+          "name": "Django Documentation - Advanced Features",
+          "type": "документация"
+        },
+        {
+          "name": "TestDriven.io",
+          "type": "онлайн курс"
+        },
+        {
+          "name": "Heroku Deployment Guide",
+          "type": "документация"
+        }
+      ],
+      "milestone": "Разработка полноценного веб-приложения с использованием Django, включая тестирование и развертывание на облачной платформе."
+    }
+  },
+  "gap_analysis": {
+    "quick_wins": [
+      {
+        "skill": "Docker",
+        "timeframe": "2-4 недели",
+        "action": "Изучить основы Docker и научиться создавать Dockerfile для простого Django приложения."
+      },
+      {
+        "skill": "Git",
+        "timeframe": "1 неделя",
+        "action": "Освоить базовые команды Git для управления версиями кода."
+      },
+      {
+        "skill": "FastAPI",
+        "timeframe": "2-4 недели",
+        "action": "Сравнить FastAPI с Django и создать простой проект для сравнения производительности"
+      }
+    ],
+    "long_term": [
+      {
+        "skill": "Kubernetes",
+        "timeframe": "3+ месяцев",
+        "action": "Изучить принципы контейнеризации и развертывание приложений в Kubernetes."
+      },
+      {
+        "skill": "AWS/Azure/GCP",
+        "timeframe": "6+ месяцев",
+        "action": "Освоить один из облачных провайдеров и использовать его для развертывания проектов."
+      }
+    ]
+  },
+  "portfolio_project": {
+    "name": "Simple Task Manager API",
+    "description": "REST API для управления задачами (CRUD операции). Приложение позволяет создавать, читать, обновлять и удалять задачи. Используется Django REST Framework и PostgreSQL.",
+    "technologies": [
+      "Python",
+      "Django REST Framework",
+      "PostgreSQL",
+      "Django",
+      "Git"
+    ]
+  },
+  "quality_score": {
+    "score": 75,
+    "justification": "Отчет в целом хорошо структурирован и содержит полезную информацию, однако есть некоторые несоответствия в зарплатах и возможность для более детализированного gap analysis.  Общая согласованность данных высокая."
+  },
+  "warnings": [
+    "Market trend указывает на 'growing' спрос на FastAPI и Kubernetes, но в skill_map и learning_path нет явного упоминания этих технологий. Это создает некоторую несогласованность.",
+    "Зарплаты в 'Регионах РФ' для Junior и Middle уровней значительно ниже, чем в Москве. Требуется дополнительное обоснование этого разрыва."
+  ],
+  "is_consistent": true
+}
